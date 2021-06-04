@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2? family = Poppins: ital, wght @ 0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 0,900; 1.100; 1.200; 1.300; 1.400; 1.500; 1.600; 1.700; 1.800; 1.900 & display = swap "
-      rel=" stylesheet "/>
+      rel=" stylesheet "
+    />
   </head>
   <body>
     <section>
@@ -17,70 +18,66 @@
       <img src="img/mountains_front.png" id="mountains_front" />
       <h2 id="text">Anime<span>JS</span></h2>
       <a href="#" id="btn">Play</a>
-
     </section>
 
     <script src="anime.min.js"></script>
 
-  <script>
+    <script>
+      var animation = anime.timeline({
+        autoplay: false,
+      });
 
-  var animation = anime.timeline({
-     autoplay: false
-});
+      animation
+        .add({
+          targets: "#btn",
+          top: "1500px",
+          duration: 500,
+          easing: "easeInOutSine",
+        })
 
-  animation
-   .add({
-  targets: '#btn',
-  top: '1500px',
-  duration: 500,
-  easing: 'easeInOutSine'
-})
+        .add({
+          targets: "#mountains_behind",
+          bottom: "0px",
+          duration: 1000,
+          easing: "easeInOutSine",
+        })
 
-.add({
-  targets: '#stars',
-  top: '0px',
-  duration: 1000,
-  easing: 'easeInOutSine'
-})
+        .add({
+          targets: "#moon",
+          top: "0px",
+          duration: 1000,
+          easing: "easeInOutBack",
+        })
 
-.add({
-  targets: '#mountains_behind',
-  bottom: '0px',
-  duration: 1000,
-  easing: 'easeInOutSine'
-})
+        .add({
+          targets: "#stars",
+          top: "0px",
+          duration: 10000,
+          easing: "easeInOutSine",
+        })
 
-.add({
-  targets: '#moon',
-  top: '0px',
-  duration: 1000,
-  easing: 'easeInOutBack'
-})
+        .add({
+          targets: "#mountains_front",
+          bottom: "0px",
+          duration: 1000,
+          easing: "easeInOutSine",
+        })
 
-.add({
-  targets: '#mountains_front',
-  bottom: '0px',
-  duration: 1000,
-  easing: 'easeInOutSine'
-})
+        .add({
+          targets: "#text",
+          duration: 1000,
+          marginRigth: 0,
+          easing: "easeInOutBack",
+        })
 
+        .add({
+          targets: "#btn",
+          top: "50%",
+          duration: 1000,
+          easing: "easeInOutBack",
+        });
 
-.add({
-  targets: '#text',
-  duration: 1000,
-  marginRigth: 0,
-  easing: 'easeInOutBack'
-})
-
-.add({
-  targets: '#btn',
-  top: '50%',
-  duration: 1000,
-  easing: 'easeInOutBack'
-})
-
-document.querySelector('#btn').onclick = animation.play;
-
-   </script>
+      document.querySelector("#btn").onclick = animation.play;
+    </script>
   </body>
 </html>
