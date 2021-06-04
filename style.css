@@ -36,7 +36,7 @@ section img#moon {
   mix-blend-mode: screen;
 }
 
-section img#star {
+section img#stars {
   top: -100%;
   height: 100%;
   object-fit: cover;
@@ -50,7 +50,7 @@ section img#mountains_behind {
 
 section img#mountains_front {
   bottom: -100%;
-  top: 0;
+  top: initial;
   z-index: 1000;
 }
 
