@@ -32,21 +32,24 @@ section img {
 }
 
 section img#moon {
+  top: -100%;
   mix-blend-mode: screen;
 }
 
 section img#star {
+  top: -100%;
   height: 100%;
   object-fit: cover;
 }
 
 section img#mountains_behind {
-  bottom: 0;
+
+  bottom: -100%;
   top: initial;
 }
 
 section img#mountains_front {
-  bottom: 0;
+  bottom: -100%;
   top: 0;
   z-index: 1000;
 }
@@ -56,6 +59,7 @@ section img#mountains_front {
   color: #fff;
   font-size: 8vw;
   font-weight: 200;
+  margin-right: -2000px;
 }
 
 #text span {
