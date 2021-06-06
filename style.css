@@ -49,7 +49,7 @@ section img#mountains_behind {
 }
 
 section img#mountains_front {
-  bottom: -100%;
+  bottom: -150%;
   top: initial;
   z-index: 1000;
 }
@@ -57,9 +57,9 @@ section img#mountains_front {
 #text {
   position: absolute;
   color: #fff;
-  font-size: 8vw;
+  font-size: calc(4vw + 4vh);
   font-weight: 200;
-  margin-right: -2000px;
+  margin-right: -160%;
 }
 
 #text span {
@@ -68,7 +68,7 @@ section img#mountains_front {
 
 #btn {
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 80px;
