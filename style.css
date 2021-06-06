@@ -52,6 +52,7 @@ section img#mountains_front {
   bottom: -150%;
   top: initial;
   z-index: 1000;
+  max-height: 100vh;
 }
 
 #text {
