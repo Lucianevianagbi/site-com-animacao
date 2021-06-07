@@ -13,11 +13,11 @@
   <br> <br>
  #  :camera_flash: Screenshots do Projeto
  <br> <br> 
- ![Imagem do projeto](C:\xampp\htdocs\www\relogio-analogico\img\img-relogio.jpg)
+ ![Imagem do projeto](https://github.com/Lucianevianagbi/site-com-animacao/tree/master/screenshots\img1.jpg)
 <br>
-![Imagem do projeto](C:\xampp\htdocs\www\relogio-analogico\img\img-relogio.jpg)
+![Imagem do projeto](https://github.com/Lucianevianagbi/site-com-animacao/tree/master/screenshots\img2.jpg)
 <br>
-![Imagem do projeto](C:\xampp\htdocs\www\relogio-analogico\img\img-relogio.jpg)
+![Imagem do projeto](https://github.com/Lucianevianagbi/site-com-animacao/tree/master/screenshots\img3.jpg)
 <br>
 ## :woman: Autora:  Luciane Viana
 <br>
