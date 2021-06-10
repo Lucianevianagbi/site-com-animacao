@@ -10,7 +10,8 @@
  * CSS
 
  * JAVASCRIT
-  <br> <br>
+  <br>
+  
  #  :camera_flash: Screenshots do Projeto
  <br> <br> 
  ![Imagem do projeto](https://github.com/Lucianevianagbi/site-com-animacao/blob/master/screenshots/img1.jpg)
@@ -19,6 +20,6 @@
 <br>
 ![Imagem do projeto](https://github.com/Lucianevianagbi/site-com-animacao/blob/master/screenshots/img3.jpg)
 <br>
-## :woman: Autora:  Luciane Viana
+## :woman: By:  Luciane Viana
 <br>
-### :link: LinkedIn: https://www.linkedin.com/in/luciane-viana/na
+### :link: LinkedIn: https://www.linkedin.com/in/luciane-viana
