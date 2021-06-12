@@ -14,12 +14,12 @@
 
  * JAVASCRIT
  
- ##  :camera_flash: Screenshots do Projeto
- <br> 
+##  :camera_flash: Screenshots do Projeto
+<br> 
 
- ![Imagem do projeto](https://github.com/Lucianevianagbi/site-com-animacao/blob/master/img/img1.jpg)
- <br>
+![Imagem do projeto](https://github.com/Lucianevianagbi/site-com-animacao/blob/master/img/img1.jpg)
+<br>
 
- ## :woman: By:  Luciane Viana
+## :woman: By:  Luciane Viana
 
- ### :link: LinkedIn: https://www.linkedin.com/in/luciane-viana
+### :link: LinkedIn: https://www.linkedin.com/in/luciane-viana
