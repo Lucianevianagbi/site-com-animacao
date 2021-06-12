@@ -2,7 +2,7 @@
 
 ##   :book: Projeto para fins de estudos 
 
-###   📽️ Link do video de referência: https://youtu.be/p6vIxQA_bgs
+###   📽️ video de referência: https://youtu.be/p6vIxQA_bgs
 
 ###   📽️ Demo link: https://site-com-animacao.vercel.app/#
 
