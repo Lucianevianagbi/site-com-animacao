@@ -1,70 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8"/>
-  <title>Site com Animação</title>
-  <link rel="icon" href="img/favicon.png" type="image/png">
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-</head>
-<body>
-<section>
-  <img src="img/stars.png" id="stars" alt=""/>
-  <img src="img/moon.png" id="moon" alt=""/>
-  <img src="img/mountains_behind.png" id="mountains_behind" alt=""/>
-  <img src="img/mountains_front.png" id="mountains_front" alt=""/>
-  <h2 id="text">Anime<span>JS</span></h2>
-  <a href="#" id="btn">Play</a>
-</section>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Site com Animação</title>
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <img src="img/stars.png" id="stars" alt="" />
+      <img src="img/moon.png" id="moon" alt="" />
+      <img src="img/mountains_behind.png" id="mountains_behind" alt="" />
+      <img src="img/mountains_front.png" id="mountains_front" alt="" />
+      <h2 id="text">Anime<span>JS</span></h2>
+      <a href="#" id="btn">Play</a>
+    </section>
 
-<script src="anime.min.js"></script>
+    <script src="anime.min.js"></script>
 
-<script>
-  const animation = anime.timeline({
-    autoplay: false
-  })
+    <script>
+      const animation = anime.timeline({
+        autoplay: false,
+      });
 
-  animation.add({
-    targets: '#btn',
-    top: '1500px',
-    duration: 500,
-    easing: 'easeInOutSine'
-  }).add({
-    targets: '#mountains_behind',
-    bottom: '0px',
-    duration: 1000,
-    easing: 'easeInOutSine'
-  }).add({
-    targets: '#stars',
-    top: '0px',
-    duration: 1000,
-    easing: 'easeInOutSine'
-  }).add({
-    targets: '#moon',
-    top: '0px',
-    duration: 1000,
-    easing: 'easeInOutBack'
-  }).add({
-    targets: '#mountains_front',
-    bottom: 0,
-    duration: 1000,
-    easing: 'easeInOutSine'
-  }).add({
-    targets: '#text',
-    duration: 1000,
-    marginRight: 0,
-    easing: 'easeInOutSine'
-  }).add({
-    targets: '#btn',
-    top: '53%',
-    duration: 1000,
-    easing: 'easeInOutBack'
-  })
+      animation
+        .add({
+          targets: "#btn",
+          top: "1500px",
+          duration: 500,
+          easing: "easeInOutSine",
+        })
+        .add({
+          targets: "#mountains_behind",
+          bottom: "0px",
+          duration: 1000,
+          easing: "easeInOutSine",
+        })
+        .add({
+          targets: "#stars",
+          top: "0px",
+          duration: 1000,
+          easing: "easeInOutSine",
+        })
+        .add({
+          targets: "#moon",
+          top: "0px",
+          duration: 1000,
+          easing: "easeInOutBack",
+        })
+        .add({
+          targets: "#mountains_front",
+          bottom: 0,
+          duration: 1000,
+          easing: "easeInOutSine",
+        })
+        .add({
+          targets: "#text",
+          duration: 1000,
+          marginRight: 0,
+          easing: "easeInOutSine",
+        })
+        .add({
+          targets: "#btn",
+          top: "53%",
+          duration: 1000,
+          easing: "easeInOutBack",
+        });
 
-  document.querySelector('#btn').onclick = animation.play
-</script>
-</body>
+      document.querySelector("#btn").onclick = animation.play;
+    </script>
+  </body>
 </html>
